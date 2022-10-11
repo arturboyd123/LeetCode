@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		379985E028F597C4008D93AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379985DF28F597C4008D93AE /* main.cpp */; };
-		379985E228F597D2008D93AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379985E128F597D2008D93AE /* main.cpp */; };
 		379985E428F5988D008D93AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379985E328F5988D008D93AE /* main.cpp */; };
+		379985E728F59A47008D93AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379985E628F59A47008D93AE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		379985D328F59756008D93AE /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		379985DF28F597C4008D93AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		379985E128F597D2008D93AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		379985E328F5988D008D93AE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../Median of Two Sorted Arrays/main.cpp"; sourceTree = "<group>"; };
+		379985E628F59A47008D93AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +45,8 @@
 		379985CA28F59756008D93AE = {
 			isa = PBXGroup;
 			children = (
+				379985E528F59A32008D93AE /* longest substring */,
 				379985DE28F597BA008D93AE /* Longest Palindromic Substring */,
-				379985DD28F597B2008D93AE /* Longest Substring Without Repeating Characters */,
 				379985D528F59756008D93AE /* Median of Two Sorted Arrays */,
 				379985D428F59756008D93AE /* Products */,
 			);
@@ -68,20 +68,20 @@
 			path = "Median of Two Sorted Arrays";
 			sourceTree = "<group>";
 		};
-		379985DD28F597B2008D93AE /* Longest Substring Without Repeating Characters */ = {
-			isa = PBXGroup;
-			children = (
-				379985E128F597D2008D93AE /* main.cpp */,
-			);
-			path = "Longest Substring Without Repeating Characters";
-			sourceTree = "<group>";
-		};
 		379985DE28F597BA008D93AE /* Longest Palindromic Substring */ = {
 			isa = PBXGroup;
 			children = (
 				379985DF28F597C4008D93AE /* main.cpp */,
 			);
 			path = "Longest Palindromic Substring";
+			sourceTree = "<group>";
+		};
+		379985E528F59A32008D93AE /* longest substring */ = {
+			isa = PBXGroup;
+			children = (
+				379985E628F59A47008D93AE /* main.cpp */,
+			);
+			path = "longest substring";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379985E228F597D2008D93AE /* main.cpp in Sources */,
 				379985E028F597C4008D93AE /* main.cpp in Sources */,
+				379985E728F59A47008D93AE /* main.cpp in Sources */,
 				379985E428F5988D008D93AE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
